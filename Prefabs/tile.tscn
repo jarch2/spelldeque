@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://b6effkc1jge6m"]
+
+[ext_resource type="Script" path="res://Scripts/Tile.gd" id="1_50se3"]
+
+[node name="Tile" type="Polygon2D"]
+polygon = PackedVector2Array(-50, -50, -50, 50, 50, 50, 50, -50)
+script = ExtResource("1_50se3")
+
+[node name="Highlight" type="Polygon2D" parent="."]
+color = Color(0, 1, 0.117647, 1)
+polygon = PackedVector2Array(-50, -50, -50, 50, 50, 50, 50, -50)
