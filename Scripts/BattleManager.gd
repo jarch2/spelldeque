@@ -6,6 +6,8 @@ extends Node
 enum playState {play, execute}
 var currentState
 
+var eventQueue = []
+
 var player1
 var player2
 
@@ -23,9 +25,6 @@ func _ready():
 func _process(delta):
 	pass
 
-func on_end_turn():
-	print("yeah")
-	pass
 
 func _attempt_execute():
 	pass
