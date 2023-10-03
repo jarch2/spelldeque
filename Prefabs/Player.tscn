@@ -8,3 +8,4 @@ script = ExtResource("1_rlo17")
 [node name="Button" type="Button" parent="."]
 offset_right = 57.0
 offset_bottom = 27.0
+focus_mode = 0

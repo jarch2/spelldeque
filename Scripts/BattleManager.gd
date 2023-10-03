@@ -16,7 +16,6 @@ func _ready():
 	player2 = player.instantiate()
 	player1.position = Vector2(screensize.x - 100, screensize.y - 100)
 	player2.position = Vector2(screensize.x - 100, screensize.y - 200)
-	player1.turn_end.connect(on_end_turn)
 	add_child(player1)
 	add_child(player2)
 
